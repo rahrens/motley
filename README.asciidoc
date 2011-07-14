@@ -4,9 +4,11 @@ Robert Ahrens <mindangels@yahoo.com>
 :Author Initials: RHDA
 :toc:
 :icons:
-:numbered:
 :website: https://github.com/rahrens/motley/
 
+.Erlang Utilities
+
+*********************************************************************************
 Motley is a place for Erlang utilities to live.  My goals are roughly as follows:
 
  * Have a place to keep shared dependencies which I am using in one or more of
@@ -23,3 +25,13 @@ minimum in the hopes that individual modules could be contributed to a project
 without requiring the whole thing to be set up as a dependency.  But I will wait
 to solve that problem until I have enough code here that it is an actual problem
 and not a theoretical one.
+********************************************************************************
+
+Components
+----------
+
+Currently, Motley contains the following components:
+
+  * `motley_lazy` : A simple lazy sequences library for Erlang.  Includes a bunch
+    of helper utilities and supports MFA, closure and {Fun, Args} based sequences
+    for all your lazy needs.
