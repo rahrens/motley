@@ -1,0 +1,12 @@
+{application, motley,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { motley_app, []}},
+  {env, []}
+ ]}.
